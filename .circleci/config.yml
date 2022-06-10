@@ -16,6 +16,6 @@ jobs:
           command: mvn -B -DskipTests clean package
 
 workflows:
-  configserver:
+  app:
     jobs:
       - build
